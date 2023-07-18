@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+/* Global Style */
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+    }
+
+/* header style */
+/* nav */
+.nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem auto;
+    }
+.nav-logo {
+    color: #3A3A3A;
+    font-size: 1.7rem;
+    font-weight: 700;
+    }
+.nav-links{
+    display: flex;
+    }
+.nav-links > li, .nav-links a {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 1rem;
+    color: #3A3A3A;
+    font-weight: 600;
+    }
+.nav-links i {
+    padding-left: 20px;
+    }
+
+/* Main Section Style */
+/* journey style */
+.journey-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    }
+.journey-article{
+    width: 50%;
+    padding-right:20px;
+}
+.journey-title{
+    color: #3A3A3A;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+    }
+.journey-description{
+    color: #3A3A3A;
+    font-weight: 600;
+    margin: 1.5rem 0;
+    }
+.journey-btn{
+    border-radius: 41px;
+    border: 0;
+    background: #E02C6D;
+    color: #FFF;
+    font-weight: 700;
+    padding: 10px 24px;
+    }
+.journey-img{
+    background: url("../images/Circle\ design.svg");
+    background-size: 100%;
+    }
+.journey-img > img{
+    width: 100%;
+    object-fit: cover;
+    }
+
+/* Brands Style */
+.brands-section{
+    margin: 100px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(rgba(192, 204, 218, 0.10) 0%, rgb(253, 252, 252) 50.38%, rgba(192, 204, 218, 0.10) 100%) 1;
+
+    }
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav, .nav-links{
+        flex-direction: column;
+        align-items: center;
+        }
+    .nav-links > li, .nav-links a{
+        margin-top: 10px;
+        }
+}
